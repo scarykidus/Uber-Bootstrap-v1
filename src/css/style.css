@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("..//fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url("..//fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("..//fonts/Roboto-Regular.ttf");
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #212121;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link {
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted white;
+    padding-right: 28px;
+}
+
+.menu .menu_item:last-child {
+    border-right: none;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 6px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.subheader .subheader_call {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Roboto-Light";
+    margin-top: 19px;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-family: "Roboto-Regular";
+    color: #ffffff;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    font-size: 14px;
+    font-family: "Roboto-Regular";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.21);
+    margin-top: 19px;
+}
+
+.promo {
+    background-image: url(..//img/header_img.png);
+    min-height: 799px;
+    padding: 165px 0 0 0;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-family: "Roboto-Black";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+    margin: 0;
+}
+
+.promo .promo_title {
+    font-size: 36px;
+    font-family: "Roboto-Bold";
+    text-align: center;
+    color: #ffffff;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.promo .promo_discr {
+    font-family: "Roboto-Regular";
+    width: 870px;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 31px;
+}
+
+.promo .promo_btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Roboto-Regular";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.21);
+    margin-top: 121px;
+}
+
+.title {
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: "Roboto-Thin";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 71px;
+    padding: 5px 12px;
+    vertical-align: middle;
+}
+
+.title_big {
+    font-size: 38px;
+    font-family: "Roboto-Bold";
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.advantage .advantage_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.advantage .advantage_block .advantage_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.advantage .advantage_block .advantage_discr {
+    width: 344px;
+}
+
+.advantage .advantage_block .advantage_discr .advantage_subtitle {
+    font-size: 17px;
+    line-height: 21px;
+    font-family: "Roboto-Regular";
+    color: rgb(30, 172, 199);
+}
+
+.advantage .advantage_block .advantage_discr .advantage_titles {
+    font-size: 15px;
+    font-family: "Roboto-Light";
+    color: #202020;
+    line-height: 21px;
+}
